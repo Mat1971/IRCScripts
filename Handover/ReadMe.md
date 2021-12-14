@@ -1,6 +1,7 @@
-Download
-  Right click "xxx" and select "save as..." and save to ...
+# Download
 
-Installation
+* Right click "xxx" and select "save as..." and save to ...
 
-Usage
+#Installation
+
+#Usage
