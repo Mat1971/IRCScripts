@@ -1,3 +1,5 @@
+# TODO rewrite history
+
 ### What it does
 * Single click automatic handover: start the script during your last song and the handover is automatically handled
 * Countdown (3min, 2min, 1min, 30seconds, 15seconds) is automatically put into the DJ channel
