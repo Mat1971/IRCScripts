@@ -36,7 +36,6 @@ instructions
 ** Menu -> Window -> Pal Scripts (this should be ticked to bring up the PAL Scripts box)
 ** In the PAL Scripts window, click the "+" and select the file (do NOT select "Automatically Start Script")
 * Load into ADI
-* Test in ADI
 * DO THE CONFIGURATION STEP BELOW
 
 ### Configuration
@@ -46,6 +45,11 @@ instructions
 * Server: single word descriptor of the server (eg efnet, undernet, whatever the server is)
 * Channel: this is the name of the DJ channel.  If you don't know this, you shouldn't be using this script :)
 * Save........
+
+### Testing in ADI
+* Make sure you're in the DJ server and DJ channel
+* Type this into any window in ADI /test......
+* If this prints a message in the DJ channel, the ADI end of this script is working
 
 ### Limitations
 * You can stop the countdown by stopping the script in SAM, but (at least in v4.2.2) you can't restart it without restarting SAM
