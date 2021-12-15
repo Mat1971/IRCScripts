@@ -26,22 +26,24 @@
 
 
 ### TODO
-version
+version [mention version in countdown/handover!)
 testing
 instructions
 
 ### Installation
+* Load into SAM
+* Load into ADI
+* Test in ADI
 
+### Limitations
+* You can stop the countdown by stopping the script in SAM, but (at least in v4.2.2) you can't restart it without restarting SAM
 
+### Usage
 
 ;Starting the SAM script:
-;     At the start of the final song:  Click Sam->Window->Pal Scipts
-;                                   Select AutoCountdown.PAL
-;                                   Click the |> play button above the script
-;     There will be a message giving the starting time remaining (eg "4:33 to go before handover");
-;     After that messages happen at 3:00   2:00   1:00   0:30   0:15  and  Go Go Go
-;     Change to normal nick happens at 0:30
-;     Encoders automatically stopped
+;     At the start of the final song: Click Sam->Window->Pal Scipts
+;                                     Select AutoCountdown.PAL
+;                                     Click the |> play button above the script
 ;
 ;Testing the IRC end
 ;     This script automatically starts and Should Just Work.
