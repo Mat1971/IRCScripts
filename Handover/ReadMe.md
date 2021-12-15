@@ -25,7 +25,7 @@
 
 
 ### TODO
-version [mention version in countdown/handover!)
+version [mention version in countdown/handover!) [combine sam + irc version)
 testing
 instructions
 
