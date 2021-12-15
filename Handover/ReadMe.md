@@ -26,6 +26,7 @@
 
 ### TODO
 version [mention version in countdown/handover!) [combine sam + irc version)
+self test should show version
 testing
 instructions
 
