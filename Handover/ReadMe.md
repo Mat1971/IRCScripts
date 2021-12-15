@@ -37,12 +37,22 @@ instructions
 ** In the PAL Scripts window, click the "+" and select the file (do NOT select "Automatically Start Script")
 * Load into ADI
 * Test in ADI
+* DO THE CONFIGURATION STEP BELOW
+
+### Configuration
+* You need to tell the script your nickname, the server and DJ channel (Ask Mat for details if you can't figure this out yourself)
+* Edit ...... Alt-R......* 
+* Nickname: this is your usual nick
+* Server: single word descriptor of the server (eg efnet, undernet, whatever the server is)
+* Channel: this is the name of the DJ channel.  If you don't know this, you shouldn't be using this script :)
+* Save........
 
 ### Limitations
 * You can stop the countdown by stopping the script in SAM, but (at least in v4.2.2) you can't restart it without restarting SAM
 
 ### Usage
 
+You have to be on the DJ server for the script to work
 Starting the SAM script:
 
 At the start of the final song: Click Sam->Window->Pal Scipts
