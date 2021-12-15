@@ -1,3 +1,13 @@
+### What it does
+* Single click automatic handover: start the script during your last song and the handover is automatically handled
+* Countdown (3min, 2min, 1min, 30seconds, 15seconds) is automatically put into the DJ channel
+* Changes to your normal nick at 30 seconds to go
+* Wakes the DJ up by name in the DJ channel if they go to sleep
+* Stops the encoder and tells the next DJ to go at the same time
+* Syncs to SAM - no need to do any timing or thinking yourself
+* Copes when SAM fast forwards time randomly
+* Did I mention it's fully automatic? :)
+
 ### What you'll need
 * SAM Broadcaster (Tested on v4.2.2)  Coming soon: testing on Pro 2020.5
 * ADI IRC (there's a 5% chance it will work on mIrc)
