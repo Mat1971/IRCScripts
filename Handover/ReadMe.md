@@ -10,7 +10,7 @@
 
 ### What you'll need
 * SAM Broadcaster (Tested on v4.2.2)  Coming soon: testing on Pro 2020.5
-* ADI IRC (there's a 5% chance it will work on mIrc)
+* ADI IRC (there's a 5% chance it will work on mIrc) running on the same PC as SAM
 
 ### Download SAM PAL script
 
