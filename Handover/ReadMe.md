@@ -32,6 +32,9 @@ instructions
 
 ### Installation
 * Load into SAM
+** In SAM:
+** Menu -> Window -> Pal Scripts (this should be ticked to bring up the PAL Scripts box)
+** In the PAL Scripts window, click the "+" and select the file (do NOT select "Automatically Start Script")
 * Load into ADI
 * Test in ADI
 
