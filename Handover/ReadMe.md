@@ -40,11 +40,14 @@ instructions
 
 ### Usage
 
-;Starting the SAM script:
-;     At the start of the final song: Click Sam->Window->Pal Scipts
-;                                     Select AutoCountdown.PAL
-;                                     Click the |> play button above the script
-;
+Starting the SAM script:
+
+At the start of the final song: Click Sam->Window->Pal Scipts
+
+Select AutoCountdown.PAL
+
+Click the |> play button above the script
+
 ;Testing the IRC end
 ;     This script automatically starts and Should Just Work.
 ;     Testing the IRC end:
@@ -53,14 +56,3 @@ instructions
 ;                 or use /TestSamListener
 ;                 or test with a webbrowser on same machine:   http://127.0.0.1:50501/message?time=999&data=This+is+a+test+message+from+browser
 ;            if all is working, you will see a test message to the DJ channel
-;
-;Testing the SAM end
-;     TRICKY!
-;     Stop button is horrible (at least in Sam 4.2.2) - if you use the stop button it will not start again! (at least in 4.2.2)
-;     Can I run script twice?
-;
-
-
-
-
-### Usage
