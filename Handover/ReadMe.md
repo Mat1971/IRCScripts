@@ -25,6 +25,10 @@
 
 
 ### TODO
+Use a hashcode to avoid config of server/channel
+   go through servers
+   hash channel name [to lower, acc += (char-64) * n;]
+   return server+channel
 version [mention version in countdown/handover!) [combine sam + irc version)
 self test should show version
 testing
@@ -41,9 +45,9 @@ instructions
 ### Configuration
 * You need to tell the script your nickname, the server and DJ channel (Ask Mat for details if you can't figure this out yourself)
 * Edit ...... Alt-R......* 
-* Nickname: this is your usual nick
-* Server: single word descriptor of the server (eg efnet, undernet, whatever the server is)
-* Channel: this is the name of the DJ channel.  If you don't know this, you shouldn't be using this script :)
+* MyNick : change this to your usual nick
+* MyNetwork: change this to the single word descriptor of the server (eg efnet, undernet, whatever the server is)
+* MyChannel: this is the name of the DJ channel.  If you don't know this, you shouldn't be using this script :)
 * Save........
 
 ### Testing in ADI
