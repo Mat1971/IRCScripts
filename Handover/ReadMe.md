@@ -42,6 +42,8 @@ instructions
 ** Menu -> Window -> Pal Scripts (this should be ticked to bring up the PAL Scripts box)
 ** In the PAL Scripts window, click the "+" and select the file (do NOT select "Automatically Start Script")
 * Load into ADI
+** This will give a script warning about initialization commands, click "OK"
+** (The initialisation sets up the listener itself, will not work without this!)
 * DO THE CONFIGURATION STEP BELOW
 
 ### Configuration
