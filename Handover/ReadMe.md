@@ -1,5 +1,13 @@
 # TODO rewrite history
 
+### TODO
+Use a hashcode to avoid config of server/channel
+version [mention version in countdown/handover!) [combine sam + irc version)
+self test should show version
+testing
+instructions
+adi with no run on script startup
+
 ### What it does
 * Single click automatic handover: start the script during your last song and the handover is automatically handled
 * Countdown (3min, 2min, 1min, 30seconds, 15seconds) is automatically put into the DJ channel
@@ -22,26 +30,17 @@
 
 ### Download ADI script + config
 * https://raw.githubusercontent.com/Mat1971/IRCScripts/main/Handover/AdiSamLink.ini
-* https://raw.githubusercontent.com/Mat1971/IRCScripts/main/Handover/AdiSamConfig.ini
-* Right click the above links and save as...
+* Right click the above links and save as... Location??????????
 
-
-### TODO
-Use a hashcode to avoid config of server/channel
-   go through servers
-   hash channel name [to lower, acc += (char-64) * n;]
-   return server+channel
-version [mention version in countdown/handover!) [combine sam + irc version)
-self test should show version
-testing
-instructions
-
-### Installation
+### Installation + Config
 * Load into SAM
 ** In SAM:
 ** Menu -> Window -> Pal Scripts (this should be ticked to bring up the PAL Scripts box)
-** In the PAL Scripts window, click the "+" and select the file (do NOT select "Automatically Start Script")
+** In the PAL Scripts window, click the "+" and select Handover.PAL from the fodler you downloaded it to
+* DO NO SELECT "Automatically Start Script" !
 * Load into ADI
+* ALT-R
+* Load....
 ** This will give a script warning about initialization commands, click "OK"
 ** (The initialisation sets up the listener itself, will not work without this!)
 * DO THE CONFIGURATION STEP BELOW
@@ -54,25 +53,11 @@ instructions
 * MyChannel: this is the name of the DJ channel.  If you don't know this, you shouldn't be using this script :)
 * Save........
 
-### Testing in ADI
+### Testing
 * Make sure you're in the DJ server and DJ channel
 * Type this into any window in ADI /test......
 * If this prints a message in the DJ channel, the ADI end of this script is working
-
-### Limitations
-* You can stop the countdown by stopping the script in SAM, but (at least in v4.2.2) you can't restart it without restarting SAM
-
-### Usage
-
-You have to be on the DJ server for the script to work
-Starting the SAM script:
-
-At the start of the final song: Click Sam->Window->Pal Scipts
-
-Select AutoCountdown.PAL
-
-Click the |> play button above the script
-
+* 
 ;Testing the IRC end
 ;     This script automatically starts and Should Just Work.
 ;     Testing the IRC end:
@@ -81,3 +66,18 @@ Click the |> play button above the script
 ;                 or use /TestSamListener
 ;                 or test with a webbrowser on same machine:   http://127.0.0.1:50501/message?time=999&data=This+is+a+test+message+from+browser
 ;            if all is working, you will see a test message to the DJ channel
+
+
+### Limitations
+* You can stop the countdown by stopping the script in SAM, but (at least in v4.2.2) you can't restart it without restarting SAM
+
+### Usage
+Obviously you have to in the DJ's channel for the script to work
+Optiona: Test the script works by typing ???????????? into an ADI IRC window, this should show a message in the DJ channel
+When your final song starts
+* Put SAM in manual mode
+* Find your PalScripts window
+* Select Handover.PAL (left click it)
+* Click the |> play button above to start the script
+
+This will print a message immediately in the DJ channel with the current countdown time, count down, change your nick, stop your encoder, etc.
