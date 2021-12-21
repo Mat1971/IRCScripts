@@ -43,6 +43,8 @@
 
 //Issue: stop then start SKIPS A FREAKING LINE AND CARRIES ON [v4.2.2]
 
+var version : float = 1.1;
+
 procedure SendMessage(time: integer; message: string); forward;
 procedure SetTimeMessage(time: integer; message: string); forward;
 var player : TPLAYER = ActivePlayer;
@@ -60,6 +62,7 @@ var secs : float = TTG - 60 * mins;
 var msg : string = 'Handover in ' + FloatToStr(mins) + ':';
 if (secs < 10) then msg := msg + '0';
 msg := msg + FloatToStr(secs);
+msg := msg + ' (using Handover.PAL ' + FloatToStr(version) + ')';
 writeln(msg);
 SendMessage(TTG,msg);               //Sends "Handover in 5:03"
 PAL.UnlockExecution;
