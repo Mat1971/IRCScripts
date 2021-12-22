@@ -56,5 +56,5 @@
 This will print a message immediately in the DJ channel with the current countdown time, count down, change your nick, stop your encoder, etc.
 And you're done - the countdown, handover, nick change, and stopping the encoder is handled for you
 
-# TODO
+### TODO
 * add in make it turn requests off?
