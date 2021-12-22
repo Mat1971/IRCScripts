@@ -1,7 +1,3 @@
-# TODO
-* rewrite history
-* turn requests off
-
 ### What it does
 * Single click automatic handover: start the script during your last song and the handover is automatically handled
 * Countdown (3min, 2min, 1min, 30seconds, 15seconds) is automatically put into the DJ channel
@@ -59,3 +55,6 @@ When your final song starts
 
 This will print a message immediately in the DJ channel with the current countdown time, count down, change your nick, stop your encoder, etc.
 And you're done - the countdown, handover, nick change, and stopping the encoder is handled for you
+
+# TODO
+* add in make it turn requests off?
