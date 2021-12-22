@@ -46,12 +46,12 @@
 * You can stop the countdown by stopping the script in SAM, but (at least in v4.2.2) you can't restart it without restarting SAM
 
 ### Usage
-* Obviously you have to in the DJ channel for the script to work
-Optional: Test the script works by typing /TestSamLink into any ADI IRC window, this should show a test message in the DJ channel
-When your final song starts
-* Find your PalScripts window
-* Select Handover.PAL and left-click to select it
-* Click the |> play button above to start the script
+* Obviously you have to in the DJ channel for the script to work, but you'll be there anyway
+* * Optional: Test the script works by typing /TestSamLink into any ADI IRC window
+* When your final song starts
+* * Find your PalScripts window
+* * Select Handover.PAL and left-click to select it
+* * Click the |> play button above to start the script
 
 This will print a message immediately in the DJ channel with the current countdown time, count down, change your nick, stop your encoder, etc.
 And you're done - the countdown, handover, nick change, and stopping the encoder is handled for you
