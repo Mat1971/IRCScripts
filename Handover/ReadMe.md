@@ -24,14 +24,14 @@
 
 ### Installation
 * Load into SAM
-** In SAM:
-** Menu -> Window -> Pal Scripts (this should be ticked to bring up the PAL Scripts box)
-** In the PAL Scripts window, click the "+" and select Handover.PAL from the folder you downloaded it to
-* DO NO SELECT "Automatically Start Script" !
+* * In SAM:
+* * Menu -> Window -> Pal Scripts (this should be ticked to bring up the PAL Scripts box)
+* * In the PAL Scripts window, click the "+" and select Handover.PAL from the folder you downloaded it to
+* * DO NO SELECT "Automatically Start Script" !
 * Load into ADI
-* ALT-R
-* File->Load and load AdiSamkLink.ini
-** This will give a script warning about initialization commands, click "OK"
+* * In ADIIrc: ALT-R
+* * File->Load and load AdiSamkLink.ini
+* * This will give a script warning about initialization commands, click "OK"
 
 ### Configuration
 * There is no configuration, everything is automated for you.
