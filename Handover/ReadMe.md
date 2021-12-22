@@ -39,7 +39,7 @@
 
 ### Testing
 * Make sure you're connected to the DJ server and are in the DJ channel
-* Type into any window in ADI:  /test TestSamLink 
+* Type into any window in ADI:  /TestSamLink 
 * If this prints a message in the DJ channel, the ADI end of this script is working and ready to receive the countdown from SAM
 
 ### Limitations
