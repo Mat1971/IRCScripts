@@ -14,7 +14,7 @@
 
 ### Download SAM PAL script
 * https://raw.githubusercontent.com/Mat1971/IRCScripts/main/Handover/Handover.PAL
-* Right click the link ^^ and Save As...
+* Right click the link ^^ and Save Link As...
 * Put it with your other PAL scripts in SAM, for example C:\Program Files (x86)\SpacialAudio\SAMBC\PAL
 * (If you don't want to follow the link you can open the files copy/paste them manually)
 
