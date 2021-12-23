@@ -13,9 +13,15 @@
 * ADI IRC (Tested on 3.9) running on the same PC as SAM  (It definitely won't fully work with mIrc)
 
 ### Download SAM PAL script
-* https://raw.githubusercontent.com/Mat1971/IRCScripts/main/Handover/Handover.PAL
+* In SAM: go to Help->About and make a note of your version number
+* Version eg 4.2.2
+* * https://raw.githubusercontent.com/Mat1971/IRCScripts/main/Handover/Handover.PAL
+* * Right click the link ^^ and Save Link As...
+* * Put it with your other PAL scripts in SAM, for example C:\Program Files (x86)\SpacialAudio\SAMBC\PAL
+* * If you can't save it there, save to eg Documents and copy it over to C:\Program Files (x86)\SpacialAudio\SAMBC\PAL
+* Version eg ??????
 * Right click the link ^^ and Save Link As...
-* Put it with your other PAL scripts in SAM, for example C:\Program Files (x86)\SpacialAudio\SAMBC\PAL
+* C:\Users\YourWindowsName\AppData\Local\SpacialAudio\SAMBC\PAL
 * (If you don't want to follow the link you can open the files copy/paste them manually)
 
 ### Download ADI script + config
