@@ -20,7 +20,7 @@
 
 ### Download ADI script + config
 * https://raw.githubusercontent.com/Mat1971/IRCScripts/main/Handover/AdiSamLink.ini
-* Right click the above link ^^ and save to eg C:\Users\YourWindowsName\AppData\Local\AdiIRC\Scripts
+* Right click the above link ^^ and Save Link As... to eg C:\Users\YourWindowsName\AppData\Local\AdiIRC\Scripts
 
 ### Installation
 * Load into SAM
