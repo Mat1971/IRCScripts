@@ -9,7 +9,7 @@
 * Did I mention it's fully automatic? :)
 
 ### What you'll need
-* SAM Broadcaster (Tested on v4.2.2)  Coming soon: testing on Pro 2020.5
+* SAM Broadcaster (Tested on SAM Version 4.2.2 and SAM Pro Version 2020.5)
 * ADI IRC (Tested on 3.9) running on the same PC as SAM  (It definitely won't fully work with mIrc)
 
 ### Download SAM PAL script
