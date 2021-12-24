@@ -40,7 +40,7 @@
 
 ### Configuration
 * There is no configuration, everything is automated for you.
-* At 30 seconds it will change back to your default nick, this is in ALT-O (for options) => QuickConnect => Nick
+* At 30 seconds it will change back to your default nick, this can be changed in ADIIrc: ALT-O (for options) => QuickConnect => Nick
 
 ### Testing
 * Make sure you're connected to the DJ server and are in the DJ channel
