@@ -58,8 +58,7 @@
 * * Find Handover.PAL and left-click to select it
 * * Click the play ( ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV4.png?raw=true) or ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV2020.png?raw=true) ) button in the PAL scripts window to start the selected script
 
-This will print a message in the DJ channel with the current countdown time, then it will count down with the song, change your nick, stop your encoder, etc.  
-And you're done - the countdown, handover, nick change, and stopping the encoder is handled for you.
+This will print a message in the DJ channel with the remaining song time left.  If this works everything else will be done for you: countdown, nick change, encoder stop, etc.
 
 ### Upgrading to a new version
 * Close ADI and SAM
