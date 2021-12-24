@@ -1,4 +1,4 @@
-![Play](https://github.com/Mat1971/IRCScripts/blob/main/ScriptPlayV4.png?raw=true)
+![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV4.png?raw=true)
 
 ### What it does
 * Single click automatic handover: start the script during your last song and the handover is automatically handled
