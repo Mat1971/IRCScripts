@@ -1,5 +1,3 @@
-![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV4.png?raw=true) or ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV2020.png?raw=true)
-
 ### What it does
 * Single click automatic handover: start the script during your last song and the handover is automatically handled
 * Countdown (3min, 2min, 1min, 30seconds, 15seconds) is automatically put into the DJ channel, synced to time remaining in SAM
@@ -58,7 +56,7 @@
 * When your final song starts
 * * Find your PalScripts window
 * * Select Handover.PAL and left-click to select it
-* * Click the |> play button above to start the script
+* * Click the play (![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV4.png?raw=true) or ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV2020.png?raw=true)) button above to start the script
 
 This will print a message immediately in the DJ channel with the current countdown time, count down, change your nick, stop your encoder, etc.
 And you're done - the countdown, handover, nick change, and stopping the encoder is handled for you
