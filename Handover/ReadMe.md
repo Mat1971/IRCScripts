@@ -56,7 +56,7 @@
 * When your final song starts
 * * Find your PalScripts window
 * * Select Handover.PAL and left-click to select it
-* * Click the play (![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV4.png?raw=true) or ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV2020.png?raw=true)) button above to start the script
+* * Click the play ( ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV4.png?raw=true) or ![Play](https://github.com/Mat1971/IRCScripts/blob/main/Handover/ScriptPlayV2020.png?raw=true) ) button above to start the script
 
 This will print a message immediately in the DJ channel with the current countdown time, count down, change your nick, stop your encoder, etc.
 And you're done - the countdown, handover, nick change, and stopping the encoder is handled for you
