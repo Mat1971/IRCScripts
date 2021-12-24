@@ -2,8 +2,8 @@
 * Single click automatic handover: start the script during your last song and the handover is automatically handled
 * Countdown (3min, 2min, 1min, 30seconds, 15seconds) is automatically put into the DJ channel, synced to time remaining in SAM
 * Changes to your normal nick at 30 seconds to go
-* Wakes the DJ up by name in the DJ channel if they go to sleep
-* Stops the encoder and tells the next DJ to go at the same time
+* Wakes the DJ up by name in the DJ channel (so it highlights on their screen)
+* Stops the encoder and tells the next DJ to go
 * Syncs to SAM - no need to do any timing or thinking yourself
 * Copes when SAM fast forwards time randomly
 * Did I mention it's fully automatic? :)
