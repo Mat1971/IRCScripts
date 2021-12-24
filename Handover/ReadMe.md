@@ -34,7 +34,7 @@
 * * In the PAL Scripts window, click the "+" and select Handover.PAL from the folder you downloaded it to
 * * DO NO SELECT "Automatically Start Script" !
 * Load into ADI
-* * In ADIIrc: ALT-R
+* * In ADIIrc: ALT-R      (or menu bar, Tools -> Edit Scripts)
 * * File->Load and load AdiSamkLink.ini
 * * This will give a script warning about initialization commands, click "OK"
 
