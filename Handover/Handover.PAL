@@ -1,22 +1,9 @@
 //Github Location and usage info:
 //https://github.com/Mat1971/IRCScripts/tree/main/Handover
 
-//*******************************
-//****** Version 0.01 ***********
-//*******************************
+var version : float = 1.1;
 
-//Notes on this
-//  Mat's RMD script must be loaded and running on IRC
-//  IRC and SAM must be on the same computer
-//  To use: Wait for your last song
-//          When last song is playing:
-//             Window -> Pal Scripts
-//             Select the script
-//             Press the |> play button above
-//
-//          Script will anounce time left, do the countdown,
-//             change your nick back, and stop the encoders
-//
+
 //  Limitations
 //  SAM scripting is terrible
 //  If you stop the script, restarting it will go wrong
@@ -25,25 +12,6 @@
 //  If you stop the deck while the script is running, it will go wrong
 //
 //  Tested on SAM 4.2.2 only!
-
-//TODO
-//   tighten up the handover timing a little
-//   skip the code if no active player
-//   make it work if stopped and started (same player)
-//   maie it work if stopped and started (different player)
-
-//Testing
-//   stop/start     (may be able to detect this happening)
-//   stop/start and change decks:  ie stop while using DeckA, start again while using DeckB
-//   no player at start
-
-//Do high speed final 15 second check
-//Set manual mode again!
-//  Break out if ActivePlayer = NIL or player paused or stopped
-
-//Issue: stop then start SKIPS A FREAKING LINE AND CARRIES ON [v4.2.2]
-
-var version : float = 1.1;
 
 procedure SendMessage(time: integer; message: string); forward;
 procedure SetTimeMessage(time: integer; message: string); forward;
@@ -120,12 +88,6 @@ end;
 
 function getValue() : Boolean;
 begin
-{  if (player = NIL) then
-  begin
-    Result := True;
-    exit;
-  end;
- }
   Result := False;
   if ( ( player.Duration - player.CurTime ) < 180000 ) then
   begin
